@@ -2,7 +2,7 @@
 
 A basic calculator built using **HTML**, **CSS**, and **JavaScript**.  
 It supports addition, subtraction, multiplication, and division.  
-Great for beginners learning how to handle user input and basic logic in JS.
+ 
 
 ## 🚀 Features
 
@@ -11,7 +11,7 @@ Great for beginners learning how to handle user input and basic logic in JS.
 - Basic math operations (+, –, ×, ÷)
 - Clear button to reset input
 - Equals button to calculate result
-- Safe version (no `eval`) or classic version (with `eval`)
+
 
 ## 🛠 Technologies Used
 
@@ -21,7 +21,6 @@ Great for beginners learning how to handle user input and basic logic in JS.
 
 ## 🖥️ Demo
 
-![Calculator Screenshot](calculator.png)
+![Calculator Screenshot](screenshot.png)
 
-## 📂 Folder Structure
 
