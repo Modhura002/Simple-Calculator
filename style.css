@@ -67,6 +67,7 @@ h1{
     cursor: pointer;
     border-radius: 10px;
     transition: opacity 0.15s;
+    text-align: center;
      
 }
 .btn:hover{
@@ -75,4 +76,12 @@ h1{
 .btn:active{
     opacity: 0.5;
 }
+ #\+,
+#\-,
+#\*,
+#\/ ,
+#C{
+  background-color: orange;
+}
+
 
