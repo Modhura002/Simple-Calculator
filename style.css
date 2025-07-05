@@ -99,7 +99,8 @@ h1{
 #\-,
 #\*,
 #\/ ,
-#C{
+#\=
+{
   background-color: orange;
 }
 
