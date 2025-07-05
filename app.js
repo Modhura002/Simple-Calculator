@@ -8,9 +8,13 @@ numBtn.forEach((btn)=>{
          
         if(val==="="){
             calculate();}
-        else if(val==="C"){
+        else if(val==="AC"){
             displayBtn.innerText="";
             expression="";
+        }
+        else if(val==="DEL"){
+            expression=expression.slice(0,-1);
+            displayBtn.innerText=displayBtn.innerText.slice(0,-1);
         }
         else{
              displayBtn.innerText+=val;
