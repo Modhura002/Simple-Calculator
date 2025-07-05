@@ -4,8 +4,8 @@ let expression="";
 numBtn.forEach((btn)=>{
     btn.addEventListener("click",()=>{
         let val=btn.getAttribute("id");
-         displayBtn.innerText+=val;
-        console.log(val);
+        
+         
         if(val==="="){
             calculate();}
         else if(val==="C"){
@@ -13,6 +13,7 @@ numBtn.forEach((btn)=>{
             expression="";
         }
         else{
+             displayBtn.innerText+=val;
             expression+=val;
         }
     });
@@ -23,10 +24,12 @@ const calculate=()=>{
     try{
    let result= eval(expression);
    displayBtn.innerText=result;
-   console.log(result);}
+   expression=result.toString();
+   }
    catch(error){
-    displayBtn.innerText="error";
-    console.log("error");
+    displayBtn.innerText="Error";
+    expression="";
+   
    }
 
    
